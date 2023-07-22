@@ -60,12 +60,31 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#F5FFFA',
     },
+    todoInputView: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+    },
+    todoInputButton: {
+        color: '#F5FFFA',
+        fontSize: 16,
+        width: '100%',
+        borderWidth: 1,
+        borderColor: '#800000',
+        backgroundColor: '#800000',
+        textAlign: 'center',
+        borderRadius: 5,
+        padding: 15,
+    },
     todoView: {
+    },
+    todoInput: {
         borderWidth: 1,
         borderColor: '#F5FFFA',
-        color: '#F5FFFA',
         borderRadius: 5,
-        padding: 5gst,
+        color: '#F5FFFA',
+        width: '75%',
+        padding: 7,
+        fontSize: 16,
     },
 
 });
