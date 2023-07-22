@@ -92,6 +92,7 @@ const styles = StyleSheet.create({
     },
     singleTodo: {
         color: '#F5FFFA',
+        fontSize: 16,
     },
     singleContainer: {
         backgroundColor: '#261c3d',

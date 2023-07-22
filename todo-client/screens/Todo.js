@@ -37,7 +37,7 @@ function Todo() {
       </View>
       <ScrollView style={styles.single}>
 
-          {todos.map(todo => {
+          {todos.reverse().map(todo => {
             return <SingleTodo todo={todo} key={todo.id}/>
           })}
       </ScrollView>
