@@ -86,8 +86,9 @@ const styles = StyleSheet.create({
         fontSize: 16,
     },
     single: {
-        marginVertical: 40,
-        paddingBottom: 40,
+        marginTop: 30,
+        marginBottom: 190,
+        paddingBottom: 70,
     },
     singleTodo: {
         color: '#F5FFFA',
