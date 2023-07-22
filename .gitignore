@@ -31,3 +31,22 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# React native client ignorables
+client node_modules/
+.expo/
+client/dist/
+client/npm-debug.*
+client/*.jks
+client/*.p8
+client/*.p12
+client/*.key
+client/*.mobileprovision
+client/*.orig.*
+client/web-build/
+
+# macOS
+client/.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+client/.metro-health-check*
