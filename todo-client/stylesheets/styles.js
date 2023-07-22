@@ -75,8 +75,7 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         padding: 15,
     },
-    todoView: {
-    },
+
     todoInput: {
         borderWidth: 1,
         borderColor: '#F5FFFA',
@@ -85,6 +84,20 @@ const styles = StyleSheet.create({
         width: '75%',
         padding: 7,
         fontSize: 16,
+    },
+    single: {
+        marginVertical: 40,
+        paddingBottom: 40,
+    },
+    singleTodo: {
+        color: '#F5FFFA',
+    },
+    singleContainer: {
+        backgroundColor: '#261c3d',
+        paddingVertical: 20,
+        paddingHorizontal: 15,
+        marginVertical: 10,
+        borderWidth: 1,
     },
 
 });
