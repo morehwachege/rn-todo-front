@@ -54,7 +54,9 @@ Create a new branch for your changes.
 Make your changes and commit them.
 Push the changes to your fork.
 Submit a pull request with a clear description of your changes.
-License
+
+# License
+
 MIT License
 
 Feel free to modify it based on your project's specific requirements and instructions.
