@@ -60,6 +60,13 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color: '#F5FFFA',
     },
+    todoView: {
+        borderWidth: 1,
+        borderColor: '#F5FFFA',
+        color: '#F5FFFA',
+        borderRadius: 5,
+        padding: 5gst,
+    },
 
 });
 
