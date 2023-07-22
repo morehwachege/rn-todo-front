@@ -1,0 +1,2 @@
+todo-api: bundle exec rails server
+client: npm start --prefix todo-client
