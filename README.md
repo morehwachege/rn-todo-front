@@ -8,7 +8,7 @@ This is a Ruby on Rails project with a client (frontend) built with React Native
 
 - Ruby (>= 2.7.0)
 - Ruby on Rails (>= 6.0)
-- [Your Frontend Framework Here]
+- React Native
 
 ### Installation
 
