@@ -1,10 +1,12 @@
-import { Text, View, TextInput, TouchableOpacity } from 'react-native'
+import { Text, View, TextInput, TouchableOpacity, ScrollView } from 'react-native'
 import React, { Component, useState } from 'react';
 import { StatusBar } from 'react-native';
 import styles from '../stylesheets/styles';
+import SingleTodo from './SingleTodo';
 
 function Todo() {
   const [text, setText] = useState('');
+  const [todos, setTodos] = useState([]);
   function handleTextChange(inputText) {
     setText(inputText);
   };
@@ -12,6 +14,9 @@ function Todo() {
     console.log(text);
     setText('');
   }
+  fetch('https://jsonplaceholder.typicode.com/todos')
+    .then(response => response.json())
+    .then(data => setTodos(data));
   return (
     <View>
       <StatusBar barStyle="light-content" backgroundColor="#1A1032" />
@@ -30,9 +35,12 @@ function Todo() {
           <Text style={styles.todoInputButton}>Add</Text>
         </TouchableOpacity>
       </View>
-      <View style={styles.todoView}>
+      <ScrollView style={styles.single}>
 
-      </View>
+          {todos.reverse().map(todo => {
+            return <SingleTodo todo={todo} key={todo.id}/>
+          })}
+      </ScrollView>
     </View>
   )
 }
