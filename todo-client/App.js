@@ -14,8 +14,7 @@ function App() {
         <Stack.Screen name="Welcome" component={WelcomePage} options={{title: 'Welcome', headerTitleAlign: 'center', headerShown: false}}/>
 
         <Stack.Screen
-          name="TodoPage
-          "
+          name="TodoPage"
           component={TodoPage}
           options={{ title: 'Todo', headerShown: false }}
         />
