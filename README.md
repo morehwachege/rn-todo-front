@@ -26,7 +26,7 @@ bundle install
 
 Install the client dependencies:
 ```bash
-cd client
+cd todo-client
 npm install   # Or yarn install
 cd ..
 ```
